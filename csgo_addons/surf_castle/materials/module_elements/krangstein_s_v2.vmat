@@ -1,0 +1,64 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_complex.vfx"
+
+	//---- Detail Texture ----
+	F_DETAIL_TEXTURE 2 // Overlay
+
+	//---- Secondary UV ----
+	F_SECONDARY_UV 1
+
+	//---- Ambient Occlusion ----
+	g_bUseSecondaryUvForAmbientOcclusion "1"
+	TextureAmbientOcclusion "materials/fort_stone_wall/tfnibahg_2k_ao.jpg"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/fort_stone_wall/tfnibahg_2k_albedo.jpg"
+
+	//---- Detail Texture ----
+	g_bUseSecondaryUvForDetailMask "1"
+	g_bUseSecondaryUvForDetailTexture "1"
+	g_flDetailBlendFactor "1.000"
+	g_flDetailBlendToFull "0.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[2.000 2.000]"
+	TextureDetail "materials/old_muddy_plaster/ufvhai2lw_2k_albedo.jpg"
+	TextureDetailMask "materials/module_elements/2uvs/krangstein_s_v2/2_variation_defaultmaterial_basecolor.jpg"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "materials/fort_stone_wall/tfnibahg_2k_roughness.jpg"
+
+	//---- Normal Map ----
+	TextureNormal "materials/fort_stone_wall/tfnibahg_2k_normal.jpg"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	Attributes
+	{
+		PreviewModel "models/module_elements/column_s.vmdl"
+	}
+
+	UnusedVariables
+	{
+		"g_flDetailNormalStrength" "1"
+		"TextureNormalDetail" "materials/module_elements/2uvs/krangstein_s_v1/normal map from mesh brick_tiles.png"
+	}
+}

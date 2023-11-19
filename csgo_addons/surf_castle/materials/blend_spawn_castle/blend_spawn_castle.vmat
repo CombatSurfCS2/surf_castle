@@ -1,0 +1,78 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_environment_blend.vfx"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Layer 1 ----
+	// [inherited from layer] g_bMetalness1 "1.000000"
+	// [inherited from layer] g_bModelTint1 "1.000000"
+	g_flHeightMapScale1 "0.491"
+	g_flHeightMapZeroPoint1 "0.413"
+	// [inherited from layer] g_flTexCoordRotation1 "0.000031"
+	// [inherited from layer] g_fTextureColorBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast1 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation1 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast1 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness1 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast1 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode1 "0.000000"
+	// [inherited from layer] g_nVertexColorMode1 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels1 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter1 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset1 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale1 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint1 "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion1 "materials/blend_spawn_castle/pjbm2_2k_ao.jpg"
+	TextureColor1 "materials/blend_spawn_castle/pjbm2_2k_albedo.jpg"
+	TextureHeight1 "materials/blend_spawn_castle/pjbm2_2k_displacement.jpg"
+	// [inherited from layer] TextureMetalness1 "materials\default\default_metal.tga"
+	TextureNormal1 "materials/blend_spawn_castle/pjbm2_2k_normal.jpg"
+	TextureRoughness1 "materials/blend_spawn_castle/pjbm2_2k_roughness.jpg"
+	// [inherited from layer] TextureTintMask1 "materials\default\default_mask.tga"
+
+	//---- Layer 2 ----
+	// [inherited from layer] g_bMetalness2 "1.000000"
+	// [inherited from layer] g_bModelTint2 "1.000000"
+	g_flBlendSoftness2 "0.094"
+	g_flHeightMapScale2 "-0.376"
+	g_flHeightMapZeroPoint2 "0.386"
+	// [inherited from layer] g_flTexCoordRotation2 "0.000031"
+	// [inherited from layer] g_fTextureColorBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast2 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation2 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast2 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness2 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast2 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode2 "0.000000"
+	// [inherited from layer] g_nVertexColorMode2 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels2 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter2 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset2 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale2 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint2 "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion2 "materials/blend_spawn_castle/tfuebj3n_2k_ao.jpg"
+	TextureColor2 "materials/blend_spawn_castle/tfuebj3n_2k_albedo.jpg"
+	TextureHeight2 "materials/blend_spawn_castle/tfuebj3n_2k_displacement.jpg"
+	// [inherited from layer] TextureMetalness2 "materials\default\default_metal.tga"
+	TextureNormal2 "materials/blend_spawn_castle/tfuebj3n_2k_normal.jpg"
+	TextureRoughness2 "materials/blend_spawn_castle/tfuebj3n_2k_roughness.jpg"
+	// [inherited from layer] TextureTintMask2 "materials\default\default_mask.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+}

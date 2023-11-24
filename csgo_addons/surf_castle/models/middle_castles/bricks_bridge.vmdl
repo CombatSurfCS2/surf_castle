@@ -1,0 +1,127 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 139.18895
+						meshes = 
+						[
+							"2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 273.822723
+						meshes = 
+						[
+							"3",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 520.753601
+						meshes = 
+						[
+							"4",
+						]
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "fort_stone.vmat"
+								to = "materials/fort_stone_wall/fort_stone_wall.vmat"
+							},
+							{
+								from = "roof_material.vmat"
+								to = "materials/red_wood_roof_material/red_wood_roof.vmat"
+							},
+							{
+								from = "wood_mat.vmat"
+								to = "materials/wood_planks_darken/wood_planks_darken.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "1"
+						filename = "models/middle_castles/bridge/bricks_bridge_lod1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "2"
+						filename = "models/middle_castles/bridge/bricks_bridge_lod2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "3"
+						filename = "models/middle_castles/bridge/bricks_bridge_lod3.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "4"
+						filename = "models/middle_castles/bridge/bricks_bridge_lod4.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

@@ -1,0 +1,112 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_foliage.vfx"
+
+	//---- 2-Sided Rendering ----
+	F_RENDER_BACKFACES 1
+
+	//---- Vertex Animation ----
+	F_VERTEX_ANIMATION 1 // Simple
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/default/default_ao.tga"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/flags/flags_flags_basecolor.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	TextureRoughness "materials/flags/flags_flags_roughness.png"
+
+	//---- Normal Map ----
+	TextureNormal "materials/flags/flags_flags_normal.png"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Vertex Animation ----
+	g_flFlutterAmount "0.474"
+	g_flFlutterFalloff "2.635"
+	g_flFlutterNoiseScale "0.970"
+	g_flFlutterSpeed "0.945"
+	g_flSwayAmount "0.000"
+	g_flSwayFalloff "1.000"
+	g_flSwayNoiseScale "0.000"
+	g_flSwaySpeed "0.745"
+	g_flVertexNormalInfluence "0.485"
+
+	//---- Vertex Color ----
+	g_flHeightGradientAmount "0.000"
+	g_flHeightGradientPower "1.000"
+	g_flVertexAmbientOcclusionAmount "0.000"
+	g_flVertexAmbientOcclusionPower "1.000"
+
+	UnusedVariables
+	{
+		"g_bBranchMotionPerpendicular" "1"
+		"g_bJitterMotion" "0"
+		"g_flBranchDeflection" "0"
+		"g_flBranchDeflectionEnd" "150"
+		"g_flBranchDeflectionStart" "0"
+		"g_flFrondDeflectionEnd" "50"
+		"g_flFrondDeflectionStart" "0"
+		"g_flFrondFlutter" "0"
+		"g_flFrondPivotLength" "0.2"
+		"g_flFrondSpatialIncoherence" "0.1"
+		"g_flTrunkDeflection" "0"
+		"g_flTrunkDeflectionEnd" "300"
+		"g_flTrunkDeflectionStart" "0"
+		"g_bUseEnvWind" "0"
+		"g_flNoise1MaskFalloff" "1"
+		"g_flNoise1Strength" "35.42"
+		"g_flNoise2MaskFalloff" "1"
+		"g_flNoise2Strength" "47.068"
+		"g_vNoise1Scale" "[1.493 0.000 0.000]"
+		"g_vNoise1Speed" "[-0.005 -0.005 0.000]"
+		"g_vNoise2Scale" "[0.000 0.000 0.000]"
+		"g_vNoise2Speed" "[0.032 0.041 0.000]"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Vertex Animation"
+		{
+			"Sway (Red Channel)" 0
+			"Flutter (Blue Channel)" 0
+			"Vertex Normal Influence" 0
+		}
+		"Vertex Color"
+		{
+			"Ambient Occlusion (Alpha Channel)" 0
+			"Height Gradient (Red Channel)" 0
+		}
+	}
+}

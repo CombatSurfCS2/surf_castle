@@ -1,0 +1,88 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_complex.vfx"
+
+	//---- Detail Texture ----
+	F_DETAIL_TEXTURE 4 // Overlay and Normals
+
+	//---- Secondary UV ----
+	F_SECONDARY_UV 1
+
+	//---- Ambient Occlusion ----
+	g_bUseSecondaryUvForAmbientOcclusion "1"
+	TextureAmbientOcclusion "materials/islands/stone_cliff_xeuncgt/xeuncgt_2k_ao.jpg"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[2.000 2.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/islands/stone_cliff_xeuncgt/xeuncgt_2k_albedo.jpg"
+
+	//---- Detail Texture ----
+	g_bUseSecondaryUvForDetailMask "1"
+	g_bUseSecondaryUvForDetailTexture "1"
+	g_flDetailBlendFactor "0.357"
+	g_flDetailBlendToFull "0.000"
+	g_flDetailNormalStrength "1.000"
+	g_flDetailTexCoordRotation "0.000"
+	g_vDetailTexCoordOffset "[0.000 0.000]"
+	g_vDetailTexCoordScale "[2.000 2.000]"
+	TextureDetail "materials/islands/stone_granite_wgpqfg3/wgpqfg3_2k_albedo.jpg"
+	TextureDetailMask "materials/islands/2uv's/island_5/island_5_circle_0020_basecolor.png"
+	TextureNormalDetail "materials/islands/stone_granite_wgpqfg3/wgpqfg3_2k_normal.jpg"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+	TextureRoughness "materials/islands/stone_cliff_xeuncgt/xeuncgt_2k_roughness.jpg"
+
+	//---- Normal Map ----
+	TextureNormal "materials/islands/stone_cliff_xeuncgt/xeuncgt_2k_normal.jpg"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	Attributes
+	{
+		PreviewModel "models/islands/island_5/island_5.vmdl"
+	}
+
+
+	VariableState
+	{
+		"Ambient Occlusion"
+		{
+		}
+		"Color"
+		{
+		}
+		"Detail Texture"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Roughness" 0
+			"Metalness" 0
+		}
+		"Normal Map"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

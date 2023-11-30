@@ -30,7 +30,7 @@ Layer0
 	g_bUseSecondaryUvForDetailMask "1"
 	g_bUseSecondaryUvForDetailTexture "1"
 	g_flDetailBlendFactor "0.357"
-	g_flDetailBlendToFull "0.000"
+	g_flDetailBlendToFull "1.000"
 	g_flDetailNormalStrength "1.000"
 	g_flDetailTexCoordRotation "0.000"
 	g_vDetailTexCoordOffset "[0.000 0.000]"
@@ -55,7 +55,7 @@ Layer0
 
 	Attributes
 	{
-		PreviewModel "models/islands/island_5/island_5.vmdl"
+		PreviewModel "models/islands/island_8/island_8.vmdl"
 	}
 
 

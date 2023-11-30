@@ -14,12 +14,8 @@
 						remaps = 
 						[
 							{
-								from = "island_rocks.vmat"
-								to = "materials/dev/dev_measuregeneric01c.vmat"
-							},
-							{
-								from = "crush_rock.vmat"
-								to = "materials/dev/dev_measuregeneric01b.vmat"
+								from = "island_70.vmat"
+								to = "materials/islands/island_7.vmat"
 							},
 						]
 						use_global_default = false
@@ -33,13 +29,85 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/islands/island_7/island_7.fbx"
+						name = "1"
+						filename = "models/islands/island_7/island_7_LOD1.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "2"
+						filename = "models/islands/island_7/island_7_LOD2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "3"
+						filename = "models/islands/island_7/island_7_LOD3.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "4"
+						filename = "models/islands/island_7/island_7_LOD4.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 156.077744
+						meshes = 
+						[
+							"2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 285.972321
+						meshes = 
+						[
+							"3",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 439.402466
+						meshes = 
+						[
+							"4",
+						]
 					},
 				]
 			},

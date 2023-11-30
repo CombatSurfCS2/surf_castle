@@ -14,8 +14,8 @@
 						remaps = 
 						[
 							{
-								from = ""
-								to = "materials/dev/dev_measuregeneric01c.vmat"
+								from = "island_80.vmat"
+								to = "materials/islands/island_8.vmat"
 							},
 						]
 						use_global_default = false
@@ -29,7 +29,41 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/islands/island_8/island_8.fbx"
+						name = "1"
+						filename = "models/islands/island_8/island_8_LOD1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "2"
+						filename = "models/islands/island_8/island_8_LOD2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "3"
+						filename = "models/islands/island_8/island_8_LOD3.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "4"
+						filename = "models/islands/island_8/island_8_LOD4.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -38,6 +72,70 @@
 						}
 					},
 				]
+			},
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 198.933533
+						meshes = 
+						[
+							"2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 398.917145
+						meshes = 
+						[
+							"3",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 524.492493
+						meshes = 
+						[
+							"4",
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "island_8_LOD4"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/islands/island_8/island_8_LOD4.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
 			},
 		]
 		model_archetype = ""

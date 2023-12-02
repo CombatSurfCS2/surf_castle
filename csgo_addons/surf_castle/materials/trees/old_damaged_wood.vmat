@@ -1,0 +1,58 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_foliage.vfx"
+
+	//---- Ambient Occlusion ----
+	TextureAmbientOcclusion "materials/trees/vmhkaj2g_2k_ao.jpg"
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "materials/trees/vmhkaj2g_2k_albedo.jpg"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	TextureRoughness "materials/trees/vmhkaj2g_2k_roughness.jpg"
+
+	//---- Normal Map ----
+	TextureNormal "materials/trees/vmhkaj2g_2k_normal.jpg"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	UnusedVariables
+	{
+		"g_flFlutterAmount" "0"
+		"g_flFlutterFalloff" "1"
+		"g_flFlutterNoiseScale" "0"
+		"g_flFlutterSpeed" "0"
+		"g_flSwayAmount" "0.212"
+		"g_flSwayFalloff" "1"
+		"g_flSwayNoiseScale" "1"
+		"g_flSwaySpeed" "1"
+		"g_flVertexNormalInfluence" "0"
+		"g_flHeightGradientAmount" "0"
+		"g_flHeightGradientPower" "1"
+		"g_flVertexAmbientOcclusionAmount" "0"
+		"g_flVertexAmbientOcclusionPower" "1"
+		"g_bBranchMotionPerpendicular" "1"
+		"g_bJitterMotion" "1"
+		"g_flBranchDeflection" "0.3"
+		"g_flBranchDeflectionEnd" "618.74"
+		"g_flBranchDeflectionStart" "250.404"
+		"g_flFrondDeflectionEnd" "397.416"
+		"g_flFrondDeflectionStart" "0"
+		"g_flFrondFlutter" "1.131"
+		"g_flFrondPivotLength" "0.755"
+		"g_flFrondSpatialIncoherence" "0.958"
+		"g_flTrunkDeflection" "0.856"
+		"g_flTrunkDeflectionEnd" "-1000"
+		"g_flTrunkDeflectionStart" "576.737"
+	}
+}

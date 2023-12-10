@@ -49,7 +49,7 @@
 							},
 							{
 								from = "window_glass.vmat"
-								to = "materials/glass/hr_g/hr_glass_001.vmat"
+								to = "materials/glass/jc_glass_material.vmat"
 							},
 						]
 						use_global_default = false

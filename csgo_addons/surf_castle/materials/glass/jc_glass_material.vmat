@@ -1,0 +1,67 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_glass.vfx"
+
+	//---- Blend Mode ----
+	F_OPAQUE_CUBEMAP_REFRACTION 1
+
+	//---- Rendering ----
+	F_DO_NOT_CAST_SHADOWS 1
+	F_RENDER_BACKFACES 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Glass ----
+	g_flTranslucencyRemap "[0.676 0.195]"
+	GlassMaskColor "materials/glass/glass_vintage_001_basecolor.jpg"
+	GlassMaskTranslucency "materials/glass/glass_vintage_001_ambientocclusion.jpg"
+	GlassMaskTransmission "materials/default/default_mask.tga"
+	GlassTintColor "[0.905882 0.729412 0.211765 1.000000]"
+
+	//---- Normal ----
+	TextureNormal "materials/glass/glass_vintage_001_normal.jpg"
+
+	//---- Refraction ----
+	g_flRefractMinRoughness "0.000"
+
+	//---- Roughness ----
+	TextureRoughness "materials/glass/glass_vintage_001_roughness.jpg"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Tint ----
+	g_flModelTintAmount "0.000"
+
+
+	VariableState
+	{
+		"Fog"
+		{
+		}
+		"Glass"
+		{
+			"Mask" 0
+			"Tint" 0
+		}
+		"Normal"
+		{
+		}
+		"Refraction"
+		{
+		}
+		"Roughness"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Tint"
+		{
+		}
+	}
+}

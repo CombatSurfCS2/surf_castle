@@ -14,16 +14,8 @@
 						remaps = 
 						[
 							{
-								from = "concrete_black.vmat"
-								to = "materials/dev/black_grid_8.vmat"
-							},
-							{
-								from = "concrete_blackred.vmat"
-								to = "materials/dev/gray_grid_4.vmat"
-							},
-							{
-								from = "gray.vmat"
-								to = "materials/dev/graygrid.vmat"
+								from = "wooden_plnaks.vmat"
+								to = "materials/wooden_planks/wooden_planks_ramps.vmat"
 							},
 						]
 						use_global_default = false

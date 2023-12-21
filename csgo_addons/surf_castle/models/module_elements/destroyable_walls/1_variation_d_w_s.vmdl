@@ -21,6 +21,10 @@
 								from = "roadside_construction_cobblestone_brown.vmat"
 								to = "materials/roadside_construction_cobblestone/roadside_construction_cobblestone.vmat"
 							},
+							{
+								from = ""
+								to = "materials/roadside_construction_cobblestone/roadside_construction_cobblestone.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
@@ -33,7 +37,30 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/module_elements/destroyable_walls/1_variation/1_variation_lod1.fbx"
+						name = "1"
+						filename = "models/module_elements/destroyable_walls/1_variation/1_variation_ver1_lod1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "2"
+						filename = "models/module_elements/destroyable_walls/1_variation/1_variation_ver1_lod2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "3"
+						filename = "models/module_elements/destroyable_walls/1_variation/1_variation_ver1_lod3.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{
@@ -49,17 +76,17 @@
 				[
 					{
 						_class = "PhysicsMeshFile"
-						name = "1_variation_lod1"
+						name = "1_variation_ver1_lod3"
 						parent_bone = ""
 						surface_prop = "default"
 						collision_prop = "default"
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
-						filename = "models/module_elements/destroyable_walls/1_variation/1_variation_lod1.fbx"
+						filename = "models/module_elements/destroyable_walls/1_variation/1_variation_ver1_lod3.fbx"
 						import_scale = 1.0
 						maxMeshVertices = 0
-						qemError = 3.0
+						qemError = 0.0
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -68,6 +95,36 @@
 					},
 				]
 				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0.0
+						meshes = 
+						[
+							"1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 66.712311
+						meshes = 
+						[
+							"2",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 130.462265
+						meshes = 
+						[
+							"3",
+						]
+					},
+				]
 			},
 		]
 		model_archetype = "static_prop_model"

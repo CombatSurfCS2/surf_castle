@@ -111,6 +111,32 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "island_7_LOD4"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/islands/island_7/island_7_LOD4.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 1.388
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""

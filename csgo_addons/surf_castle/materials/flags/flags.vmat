@@ -8,7 +8,7 @@ Layer0
 	F_RENDER_BACKFACES 1
 
 	//---- Vertex Animation ----
-	F_VERTEX_ANIMATION 2 // Advanced
+	F_VERTEX_ANIMATION 1 // Simple
 
 	//---- Ambient Occlusion ----
 	TextureAmbientOcclusion "materials/default/default_ao.tga"
@@ -33,16 +33,15 @@ Layer0
 	g_nTextureAddressModeV "0" // Wrap
 
 	//---- Vertex Animation ----
-	g_bUseEnvWind "0"
-	g_flNoise1MaskFalloff "1.000"
-	g_flNoise1Strength "5.556"
-	g_flNoise2MaskFalloff "1.000"
-	g_flNoise2Strength "5.926"
-	g_flVertexNormalInfluence "0.000"
-	g_vNoise1Scale "[1.610 2.310 1.610]"
-	g_vNoise1Speed "[0.137 -0.131 0.027]"
-	g_vNoise2Scale "[2.808 4.034 3.322]"
-	g_vNoise2Speed "[-0.123 0.041 0.096]"
+	g_flFlutterAmount "0.474"
+	g_flFlutterFalloff "2.635"
+	g_flFlutterNoiseScale "0.970"
+	g_flFlutterSpeed "0.945"
+	g_flSwayAmount "0.000"
+	g_flSwayFalloff "1.000"
+	g_flSwayNoiseScale "0.000"
+	g_flSwaySpeed "0.745"
+	g_flVertexNormalInfluence "0.485"
 
 	//---- Vertex Color ----
 	g_flHeightGradientAmount "0.000"
@@ -65,14 +64,15 @@ Layer0
 		"g_flTrunkDeflection" "0"
 		"g_flTrunkDeflectionEnd" "300"
 		"g_flTrunkDeflectionStart" "0"
-		"g_flFlutterAmount" "0.474"
-		"g_flFlutterFalloff" "2.635"
-		"g_flFlutterNoiseScale" "0.97"
-		"g_flFlutterSpeed" "0.945"
-		"g_flSwayAmount" "0.069"
-		"g_flSwayFalloff" "1"
-		"g_flSwayNoiseScale" "0"
-		"g_flSwaySpeed" "0.745"
+		"g_bUseEnvWind" "0"
+		"g_flNoise1MaskFalloff" "1"
+		"g_flNoise1Strength" "35.42"
+		"g_flNoise2MaskFalloff" "1"
+		"g_flNoise2Strength" "47.068"
+		"g_vNoise1Scale" "[1.493 0.000 0.000]"
+		"g_vNoise1Speed" "[-0.005 -0.005 0.000]"
+		"g_vNoise2Scale" "[0.000 0.000 0.000]"
+		"g_vNoise2Speed" "[0.032 0.041 0.000]"
 	}
 
 
@@ -99,10 +99,9 @@ Layer0
 		}
 		"Vertex Animation"
 		{
-			"Noise 1 (Red Channel)" 0
-			"Noise 2 (Blue Channel)" 0
+			"Sway (Red Channel)" 0
+			"Flutter (Blue Channel)" 0
 			"Vertex Normal Influence" 0
-			"Use Env Wind" 0
 		}
 		"Vertex Color"
 		{

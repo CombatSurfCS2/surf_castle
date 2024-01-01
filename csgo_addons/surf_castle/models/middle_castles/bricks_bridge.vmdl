@@ -119,6 +119,32 @@
 					},
 				]
 			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "bricks_bridge_lod4"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/middle_castles/bridge/bricks_bridge_lod4.fbx"
+						import_scale = 1.0
+						maxMeshVertices = 0
+						qemError = 3.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
 		]
 		model_archetype = ""
 		primary_associated_entity = ""

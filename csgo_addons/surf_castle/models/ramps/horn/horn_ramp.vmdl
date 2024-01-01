@@ -17,6 +17,10 @@
 								from = "wooden_plnaks.vmat"
 								to = "materials/wooden_planks/wooden_planks_ramps.vmat"
 							},
+							{
+								from = "rope.vmat"
+								to = "materials/rope/rope.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""

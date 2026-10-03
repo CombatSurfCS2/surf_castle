@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
 	rootNode = 
 	{
@@ -11,35 +11,108 @@
 				[
 					{
 						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
+						mesh_references = 
 						[
-							"1",
+							{
+								mesh_name = "2"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
 						]
+						switch_threshold = 40.31894
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 40.318939
-						meshes = 
+						mesh_references = 
 						[
-							"2",
+							{
+								mesh_name = "3"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
 						]
+						switch_threshold = 84.56571
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 84.565712
-						meshes = 
+						mesh_references = 
 						[
-							"3",
+							{
+								mesh_name = "4"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
 						]
-					},
-					{
-						_class = "LODGroup"
-						switch_threshold = 164.560883
-						meshes = 
-						[
-							"4",
-						]
+						switch_threshold = 164.56088
 					},
 				]
 			},
@@ -65,17 +138,6 @@
 				_class = "RenderMeshList"
 				children = 
 				[
-					{
-						_class = "RenderMeshFile"
-						name = "1"
-						filename = "models/module_elements/krangstein_s/1_variation/krangstein_s_v1_lod1.fbx"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
 					{
 						_class = "RenderMeshFile"
 						name = "2"
@@ -121,13 +183,19 @@
 						parent_bone = ""
 						surface_prop = "default"
 						collision_prop = "default"
+						tool_material = ""
 						recenter_on_parent_bone = false
 						offset_origin = [ 0.0, 0.0, 0.0 ]
 						offset_angles = [ 0.0, 0.0, 0.0 ]
 						filename = "models/module_elements/krangstein_s/1_variation/krangstein_s_v1_lod4.fbx"
 						import_scale = 1.0
-						maxMeshVertices = 0
-						qemError = 3.0
+						simplification_params = 
+						{
+							qemError = 3.0
+							maxMeshVertices = 0
+							small_element_threshold = 0.0
+							thin_element_threshold = 0.0
+						}
 						import_filter = 
 						{
 							exclude_by_default = false
@@ -136,10 +204,11 @@
 					},
 				]
 				leave_body_collision_unmodified = false
+				body_order = "default"
 			},
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"
-		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
 	}
 }

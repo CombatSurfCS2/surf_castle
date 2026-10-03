@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
 {
 	rootNode = 
 	{
@@ -11,35 +11,108 @@
 				[
 					{
 						_class = "LODGroup"
-						switch_threshold = 0.0
-						meshes = 
+						mesh_references = 
 						[
-							"1",
+							{
+								mesh_name = "2"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
 						]
-					},
-					{
-						_class = "LODGroup"
 						switch_threshold = 13.689514
-						meshes = 
-						[
-							"2",
-						]
 					},
 					{
 						_class = "LODGroup"
+						mesh_references = 
+						[
+							{
+								mesh_name = "3"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
+						]
 						switch_threshold = 24.933174
-						meshes = 
-						[
-							"3",
-						]
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 41.852798
-						meshes = 
+						mesh_references = 
 						[
-							"4",
+							{
+								mesh_name = "4"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
 						]
+						switch_threshold = 41.8528
 					},
 				]
 			},
@@ -65,17 +138,6 @@
 				_class = "RenderMeshList"
 				children = 
 				[
-					{
-						_class = "RenderMeshFile"
-						name = "1"
-						filename = "models/module_elements/windows/window_bricks_LOD1.fbx"
-						import_scale = 1.0
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
 					{
 						_class = "RenderMeshFile"
 						name = "2"
@@ -114,6 +176,6 @@
 		]
 		model_archetype = "static_prop_model"
 		primary_associated_entity = "prop_static"
-		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
 	}
 }

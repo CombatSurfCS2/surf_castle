@@ -1,0 +1,212 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_environment_blend.vfx"
+
+	//---- Detail ----
+	F_DETAIL_NORMAL 1
+
+	//---- Layer 2 ----
+	F_BLEND_EFFECTS_2 1
+	F_BORDER_BLEND_MODE_2 2 // Mod2x
+
+	//---- Blend Effects ----
+	g_bBorderTintMask2 "0"
+	g_flBevelCurve2 "0.000"
+	g_flBevelSoftness2 "0.100"
+	g_flBevelSpread2 "0.056"
+	g_flBevelStrength2 "0.000"
+	g_flBorderOffset2 "0.000"
+	g_flBorderSoftness2 "0.100"
+	g_flBorderSpread2 "0.000"
+	g_vBevelLayerAmount2 "[1.000 1.000]"
+	g_vBorderLayerAmount2 "[1.000 0.000]"
+	g_vBorderTint2 "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Color ----
+	g_flBlendSoftnessDistanceModifierStrength "1.000"
+	g_flModelTintAmount "1.000"
+	g_nScaleTexCoord2UByModelScaleAxis "0" // None
+	g_nScaleTexCoord2VByModelScaleAxis "0" // None
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Layer 1 ----
+	// [inherited from layer] g_bMetalness1 "1.000000"
+	// [inherited from layer] g_bModelTint1 "1.000000"
+	// [inherited from layer] g_bSnowLayer1 "0.000000"
+	// [inherited from layer] g_fDetailTextureNormalContrast1 "1.000000"
+	// [inherited from layer] g_flDetailPropMaskBias1 "0.000000"
+	// [inherited from layer] g_flDetailPropPuddleReduction1 "0.000000"
+	// [inherited from layer] g_flDetailTexCoordRotation1 "0.000031"
+	g_flHeightMapScale1 "0.268"
+	g_flHeightMapZeroPoint1 "0.482"
+	// [inherited from layer] g_flTexCoordRotation1 "0.000031"
+	// [inherited from layer] g_flWetnessDarkeningStrength1 "1.000000"
+	// [inherited from layer] g_fTextureColorBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast1 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation1 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast1 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness1 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast1 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode1 "0.000000"
+	// [inherited from layer] g_nDetailUVSet1 "-1.000000"
+	// [inherited from layer] g_nUVSet1 "1.000000"
+	// [inherited from layer] g_nVertexColorMode1 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels1 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vDetailTexCoordCenter1 "[0.500000 0.500000]"
+	// [inherited from layer] g_vDetailTexCoordOffset1 "[0.000000 0.000000]"
+	// [inherited from layer] g_vDetailTexCoordScale1 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter1 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset1 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale1 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint1 "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion1 "materials/fort_stone_wall/tfnibahg_2k_ao.jpg"
+	TextureColor1 "materials/fort_stone_wall/tfnibahg_2k_albedo.jpg"
+	TextureHeight1 "materials/fort_stone_wall/tfnibahg_2k_ao.jpg"
+	// [inherited from layer] TextureMetalness1 "materials\default\default_metal.tga"
+	TextureNormal1 "materials/fort_stone_wall/tfnibahg_2k_normal.jpg"
+	TextureNormalDetail1 "materials/fort_stone_wall/tfnibahg_2k_normal.jpg"
+	TextureRoughness1 "materials/fort_stone_wall/tfnibahg_2k_roughness.jpg"
+	// [inherited from layer] TextureTintMask1 "materials\default\default_mask.tga"
+
+	//---- Layer 2 ----
+	// [inherited from layer] g_bMetalness2 "1.000000"
+	// [inherited from layer] g_bModelTint2 "1.000000"
+	// [inherited from layer] g_bSnowLayer2 "0.000000"
+	g_fDetailTextureNormalContrast2 "-2.000"
+	// [inherited from layer] g_flAOCombine2 "0.000000"
+	// [inherited from layer] g_flAOReplace2 "1.000000"
+	g_flBlendSoftness2 "0.076"
+	g_flColorOverlay2 "0.729"
+	g_flColorReplace2 "0.493"
+	// [inherited from layer] g_flDetailPropMaskBias2 "0.000000"
+	g_flDetailPropMaskSoftness2 "0.063"
+	// [inherited from layer] g_flDetailPropPuddleReduction2 "0.000000"
+	// [inherited from layer] g_flDetailTexCoordRotation2 "0.000031"
+	g_flHeightMapScale2 "-2.181"
+	g_flHeightMapZeroPoint2 "1.000"
+	// [inherited from layer] g_flMaskWithHeight2 "0.000000"
+	// [inherited from layer] g_flMetalnessCombine2 "0.000000"
+	// [inherited from layer] g_flMetalnessReplace2 "1.000000"
+	// [inherited from layer] g_flNormalCombine2 "0.000000"
+	g_flNormalReplace2 "0.542"
+	// [inherited from layer] g_flRoughnessCombine2 "0.000000"
+	// [inherited from layer] g_flRoughnessReplace2 "1.000000"
+	// [inherited from layer] g_flTexCoordRotation2 "0.000031"
+	// [inherited from layer] g_flWetnessDarkeningStrength2 "1.000000"
+	// [inherited from layer] g_fTextureColorBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast2 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation2 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast2 "1.000000"
+	g_fTintMaskBrightness2 "0.000"
+	g_fTintMaskContrast2 "-2.000"
+	// [inherited from layer] g_nColorCorrectionMode2 "0.000000"
+	// [inherited from layer] g_nDetailUVSet2 "-1.000000"
+	g_nUVSet2 "2" // UV2
+	// [inherited from layer] g_nVertexColorMode2 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels2 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vDetailTexCoordCenter2 "[0.500000 0.500000]"
+	// [inherited from layer] g_vDetailTexCoordOffset2 "[0.000000 0.000000]"
+	// [inherited from layer] g_vDetailTexCoordScale2 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter2 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset2 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale2 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint2 "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion2 "materials/castle_wall/td0neior_2k_ao.jpg"
+	TextureColor2 "materials/castle_wall/td0neior_2k_albedo.jpg"
+	TextureHeight2 "materials/ramps_castle/mask.jpg"
+	// [inherited from layer] TextureMetalness2 "materials\default\default_metal.tga"
+	// [inherited from layer] TextureNormal2 "materials\default\default_normal.tga"
+	TextureNormalDetail2 "materials/ramps_castle/surf_ramp_lp_normal.png"
+	TextureRoughness2 "materials/castle_wall/td0neior_2k_roughness.jpg"
+	// [inherited from layer] TextureTintMask2 "materials\default\default_mask.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	Attributes
+	{
+		PreviewModel "models/ramps/test/surf_ramp_test.vmdl"
+	}
+
+	UnusedVariables
+	{
+		"g_flBevelOffset2" "0"
+		"g_flOverlayBrightnessContrast" "0.756"
+		"g_flOverlayDarknessContrast" "0.905"
+		"g_flOverlayTexCoordRotation" "0"
+		"g_nColorOverlayMode" "0"
+		"g_nColorOverlayTintMask" "0"
+		"g_nColorOverlayUVSet" "0"
+		"g_vOverlayTexCoordCenter" "[0.714 0.354]"
+		"g_vOverlayTexCoordOffset" "[0.000 0.000]"
+		"g_vOverlayTexCoordScale" "[1.000 1.000]"
+		"TextureSharedColorOverlay" "materials/ramps_castle/mask.jpg"
+		"TextureAmbientOcclusion3" ""
+		"TextureColor3" ""
+		"TextureHeight3" ""
+		"TextureMetalness3" ""
+		"TextureNormal3" ""
+		"TextureRoughness3" ""
+		"TextureTintMask3" ""
+	}
+
+
+	VariableState
+	{
+		"Blend Effects"
+		{
+			"Border Layer 2" 0
+			"Bevel Layer 2" 0
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Layer 1"
+		{
+			"Color" 0
+			"Tint Mask" 0
+			"Color Correction" 0
+			"Lighting" 0
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 0
+			"Detail Props" 0
+			"Snow" 0
+			"Detail" 0
+			"Detail Texture Transform" 0
+		}
+		"Layer 2"
+		{
+			"Color" 0
+			"Tint Mask" 0
+			"Color Correction" 1
+			"Lighting" 0
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 0
+			"Detail Props" 0
+			"Snow" 0
+			"Detail" 0
+			"Detail Texture Transform" 0
+			"Selective Blending" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

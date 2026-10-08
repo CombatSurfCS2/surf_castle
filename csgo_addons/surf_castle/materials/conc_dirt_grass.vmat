@@ -1,0 +1,185 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_environment_blend.vfx"
+
+	//---- Blending ----
+	F_USE_NEW_BLENDING 1
+
+	//---- Color ----
+	g_flBlendSoftnessDistanceModifierStrength "1.000"
+	g_flModelTintAmount "1.000"
+	g_nScaleTexCoord2UByModelScaleAxis "0" // None
+	g_nScaleTexCoord2VByModelScaleAxis "0" // None
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Layer 1 ----
+	// [inherited from layer] g_bMetalness1 "1.000000"
+	// [inherited from layer] g_bModelTint1 "1.000000"
+	// [inherited from layer] g_flDetailPropMaskBias1 "0.000000"
+	// [inherited from layer] g_flDetailPropPuddleReduction1 "0.000000"
+	// [inherited from layer] g_flHeightMapScale1 "1.000000"
+	// [inherited from layer] g_flHeightMapZeroPoint1 "0.500000"
+	// [inherited from layer] g_flTexCoordRotation1 "0.000031"
+	// [inherited from layer] g_fTextureColorBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast1 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation1 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast1 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness1 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast1 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode1 "0.000000"
+	// [inherited from layer] g_nUVSet1 "1.000000"
+	// [inherited from layer] g_nVertexColorMode1 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels1 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter1 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset1 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale1 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint1 "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Layer 2 ----
+	// [inherited from layer] g_bMetalness2 "1.000000"
+	// [inherited from layer] g_bModelTint2 "1.000000"
+	// [inherited from layer] g_flAOCombine2 "0.000000"
+	// [inherited from layer] g_flAOReplace2 "1.000000"
+	// [inherited from layer] g_flBlendSoftness2 "0.010000"
+	// [inherited from layer] g_flColorOverlay2 "0.000000"
+	// [inherited from layer] g_flColorReplace2 "1.000000"
+	// [inherited from layer] g_flDetailPropMaskBias2 "0.000000"
+	// [inherited from layer] g_flDetailPropMaskSoftness2 "0.010000"
+	g_flDetailPropPuddleReduction2 "1.000"
+	// [inherited from layer] g_flHeightMapScale2 "1.000000"
+	// [inherited from layer] g_flHeightMapZeroPoint2 "0.500000"
+	// [inherited from layer] g_flMaskWithHeight2 "0.000000"
+	// [inherited from layer] g_flMetalnessCombine2 "0.000000"
+	// [inherited from layer] g_flMetalnessReplace2 "1.000000"
+	// [inherited from layer] g_flNormalCombine2 "0.000000"
+	// [inherited from layer] g_flNormalReplace2 "1.000000"
+	// [inherited from layer] g_flRoughnessCombine2 "0.000000"
+	// [inherited from layer] g_flRoughnessReplace2 "1.000000"
+	// [inherited from layer] g_flTexCoordRotation2 "0.000031"
+	// [inherited from layer] g_flUnderlyingHeightMapInfluence2 "1.000000"
+	// [inherited from layer] g_fTextureColorBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast2 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation2 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast2 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness2 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast2 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode2 "0.000000"
+	// [inherited from layer] g_nUVSet2 "1.000000"
+	// [inherited from layer] g_nVertexColorMode2 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels2 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter2 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset2 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale2 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint2 "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	// Material Layer References
+	MaterialLayers
+	{
+		MaterialLayerReference_1 "materials/building_beam_2/building_beam_2.vmat"
+		MaterialLayerReference_2 "materials/doors/3d_interior_wcusci3dw.vmat"
+	}
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties2 "dirt"
+		PhysicsSurfaceProperties1 "concrete_polished"
+		PhysicsSurfaceProperties3 "grass"
+		DetailPropType_1 "rubble_detail"
+		DetailPropType_3 "grass_detail"
+		DetailPropType_2 "dirt_detail"
+	}
+
+	UnusedVariables
+	{
+		"g_bBorderTintMask3" "0"
+		"g_flBevelCurve3" "0"
+		"g_flBevelOffset3" "0"
+		"g_flBevelSoftness3" "0.1"
+		"g_flBevelSpread3" "0.1"
+		"g_flBevelStrength3" "0"
+		"g_flBorderOffset3" "0"
+		"g_flBorderSoftness3" "0.1"
+		"g_flBorderSpread3" "0.1"
+		"g_vBevelLayerAmount3" "[1.000 1.000]"
+		"g_vBorderLayerAmount3" "[1.000 0.000]"
+		"g_vBorderTint3" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_bPuddlesOnVerticalSurfaces" "0"
+		"g_bWetnessUseHeightmapAdjustments" "0"
+		"g_fPuddleSedimentHeight" "0.9"
+		"g_fPuddleStrength" "1"
+		"g_flDetailPropPuddleReduction3" "0.5"
+		"g_flHorizontalSurfaceTolerance" "32"
+		"g_flWetnessUnderlyingHeightMapInfluence" "1"
+		"g_fPuddleBlendSoftness" "0.0801"
+		"g_fPuddleHeight" "0.75"
+		"g_fPuddleRoughness" "0.02"
+		"g_fPuddleSedimentOpacity" "0.075"
+		"g_fRainStrength" "1"
+		"g_fRippleStrength" "1"
+		"g_fWetEdgeSoftness" "0.2001"
+		"g_fWetEdgeSpread" "0.2"
+		"g_fWetEdgeStrength" "0.5"
+		"g_fWetnessStrength" "1"
+		"g_vPuddleSedimentColor" "[0.619608 0.560784 0.501961 0.000000]"
+		"g_flOverlayBrightnessContrast" "1"
+		"g_flOverlayDarknessContrast" "1"
+		"g_flOverlayTexCoordRotation" "0"
+		"g_nColorOverlayUVSet" "2"
+		"g_vColorOverlayLayerStrengths" "[1.000 1.000 1.000]"
+		"g_vColorOverlayTintMaskStrengths" "[0.000 0.000 0.000]"
+		"g_vOverlayTexCoordCenter" "[0.500 0.500]"
+		"g_vOverlayTexCoordOffset" "[0.000 0.000]"
+		"g_vOverlayTexCoordScale" "[1.000 1.000]"
+		"TextureSharedColorOverlay" ""
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Layer 1"
+		{
+			"Tint Mask" 0
+			"Color Correction" 0
+			"Lighting" 0
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 0
+			"Detail Props" 0
+		}
+		"Layer 2"
+		{
+			"Tint Mask" 1
+			"Color Correction" 0
+			"Lighting" 0
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 1
+			"Detail Props" 0
+			"Selective Blending" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
+}

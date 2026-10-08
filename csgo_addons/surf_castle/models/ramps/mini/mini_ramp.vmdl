@@ -14,8 +14,8 @@
 						remaps = 
 						[
 							{
-								from = "gray.vmat"
-								to = "materials/dev/colorcode_darkgrey.vmat"
+								from = ""
+								to = "materials/ramps_castle/ramp_env_blend.vmat"
 							},
 						]
 						use_global_default = false
@@ -31,7 +31,7 @@
 						_class = "PhysicsHullFile"
 						name = "mini_col"
 						parent_bone = ""
-						surface_prop = "Wood"
+						surface_prop = "concrete"
 						collision_prop = "default"
 						tool_material = ""
 						recenter_on_parent_bone = false
@@ -62,7 +62,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/ramps/mini/mini.fbx"
+						filename = "models/ramps/mini/mini_tower_ramp_LOD1.fbx"
 						import_scale = 1.0
 						import_filter = 
 						{

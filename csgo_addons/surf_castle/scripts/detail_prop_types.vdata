@@ -1,0 +1,288 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CDetailPropType"
+	editor_info = 
+	{
+		name = "Hammer 5 Tools"
+		version = "6.0.6"
+	}
+	grass_detail = 
+	{
+		m_flDensity = 0.08
+		m_Models = 
+		[
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var1.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.03
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var2.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.03
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var3.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.03
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var4.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.03
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var5.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.04
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var6.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.04
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var7.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.04
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			},
+			
+			{
+				m_ModelName = resource_name:"models/bridge/3dplant/3dplant_grass_xeogciyqx/xeogciyqx_var8.vmdl"
+				m_MaterialGroup = "default"
+				m_flWeight = 0.04
+				m_flStartFadeSize = 0.01
+				m_flEndFadeSize = 0.001
+				m_bWorldSpaceOrientation = true
+				m_flOrientToSurface = 1.0
+				m_flMinSurfaceSlope = 0.0
+				m_flMaxSurfaceSlope = 40.0
+				m_flRandomVerticalOffsetMin = 0.0
+				m_flRandomVerticalOffsetMax = 0.0
+				m_vRandomRotationMin = 
+				[
+					0.000000,
+					0.000000,
+					0.000000,
+				]
+				m_vRandomRotationMax = 
+				[
+					0.000000,
+					360.000000,
+					0.000000,
+				]
+				m_flRandomScaleMin = 0.5
+				m_flRandomScaleMax = 1.0
+				m_flDensityMinScale = 0.5
+				m_flBlendWeightMinScale = 0.5
+				m_flBlendWeightMin = 0.9
+				m_flBlendWeightMax = 1.0
+				m_flBlendWeightFullDenstity = 0.95
+				m_bCastStaticShadows = true
+			}
+		]
+	}
+}

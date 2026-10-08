@@ -2,44 +2,193 @@
 
 Layer0
 {
-	shader "csgo_simple_2way_blend.vfx"
+	shader "csgo_environment_blend.vfx"
 
-	//---- Enable Ambient Occlusion ----
-	F_ENABLE_AMBIENT_OCCLUSION 1
+	//---- Blending ----
+	F_USE_NEW_BLENDING 1
+
+	//---- Layer 2 ----
+	F_BLEND_EFFECTS_2 1
+
+	//---- Blend Effects ----
+	g_bBorderTintMask2 "0"
+	g_flBevelCurve2 "-0.690"
+	g_flBevelOffset2 "-1.296"
+	g_flBevelSoftness2 "0.166"
+	g_flBevelSpread2 "0.085"
+	g_flBevelStrength2 "0.110"
+	g_flBorderOffset2 "0.214"
+	g_flBorderSoftness2 "0.000"
+	g_flBorderSpread2 "1.000"
+	g_vBevelLayerAmount2 "[1.000 1.000]"
+	g_vBorderLayerAmount2 "[1.000 0.000]"
+	g_vBorderTint2 "[1.000000 1.000000 1.000000 0.000000]"
 
 	//---- Color ----
+	g_flBlendSoftnessDistanceModifierStrength "1.000"
 	g_flModelTintAmount "1.000"
-	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoord2UByModelScaleAxis "0" // None
+	g_nScaleTexCoord2VByModelScaleAxis "0" // None
 	g_nScaleTexCoordUByModelScaleAxis "0" // None
 	g_nScaleTexCoordVByModelScaleAxis "0" // None
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	g_vTexCoordCenter "[0.500 0.500]"
-	g_vTexCoordOffset "[0.000 0.000]"
-	g_vTexCoordScale "[1.000 1.000]"
-	g_vTexCoordScrollSpeed "[0.000 0.000]"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
-	//---- Mask ----
-	TextureMask "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_displacement.jpg"
+	//---- Layer 1 ----
+	// [inherited from layer] g_bMetalness1 "1.000000"
+	// [inherited from layer] g_bModelTint1 "1.000000"
+	// [inherited from layer] g_bSnowLayer1 "0.000000"
+	// [inherited from layer] g_flDetailPropMaskBias1 "0.000000"
+	g_flDetailPropPuddleReduction1 "0.627"
+	// [inherited from layer] g_flHeightMapScale1 "1.000000"
+	// [inherited from layer] g_flHeightMapZeroPoint1 "0.500000"
+	// [inherited from layer] g_flTexCoordRotation1 "0.000031"
+	// [inherited from layer] g_flWetnessDarkeningStrength1 "1.000000"
+	// [inherited from layer] g_fTextureColorBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast1 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation1 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness1 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast1 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness1 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast1 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode1 "0.000000"
+	// [inherited from layer] g_nUVSet1 "1.000000"
+	// [inherited from layer] g_nVertexColorMode1 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels1 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter1 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset1 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale1 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint1 "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion1 "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_ao.jpg"
+	TextureColor1 "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_albedo.jpg"
+	TextureHeight1 "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_displacement.jpg"
+	TextureMetalness1 ""
+	TextureNormal1 "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_normal.jpg"
+	TextureRoughness1 "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_roughness.jpg"
+	TextureTintMask1 ""
 
-	//---- Material A ----
-	g_flMetalnessA "0.000"
-	TextureAmbientOcclusionA "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_ao.jpg"
-	TextureColorA "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_albedo.jpg"
-	TextureNormalA "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_normal.jpg"
-	TextureRoughnessA "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_roughness.jpg"
-
-	//---- Material B ----
-	g_flMetalnessB "0.000"
-	g_vTexCoordScale2 "[1.000 1.000]"
-	TextureAmbientOcclusionB "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_ao.jpg"
-	TextureColorB "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_albedo.jpg"
-	TextureNormalB "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_normal.jpg"
-	TextureRoughnessB "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_roughness.jpg"
+	//---- Layer 2 ----
+	// [inherited from layer] g_bMetalness2 "1.000000"
+	// [inherited from layer] g_bModelTint2 "1.000000"
+	// [inherited from layer] g_bSnowLayer2 "0.000000"
+	// [inherited from layer] g_flAOCombine2 "0.000000"
+	// [inherited from layer] g_flAOReplace2 "1.000000"
+	g_flBlendSoftness2 "0.103"
+	// [inherited from layer] g_flColorOverlay2 "0.000000"
+	// [inherited from layer] g_flColorReplace2 "1.000000"
+	// [inherited from layer] g_flDetailPropMaskBias2 "0.000000"
+	// [inherited from layer] g_flDetailPropMaskSoftness2 "0.010000"
+	g_flDetailPropPuddleReduction2 "1.000"
+	g_flHeightMapScale2 "0.033"
+	g_flHeightMapZeroPoint2 "0.649"
+	// [inherited from layer] g_flMaskWithHeight2 "0.000000"
+	// [inherited from layer] g_flMetalnessCombine2 "0.000000"
+	// [inherited from layer] g_flMetalnessReplace2 "1.000000"
+	// [inherited from layer] g_flNormalCombine2 "0.000000"
+	// [inherited from layer] g_flNormalReplace2 "1.000000"
+	// [inherited from layer] g_flRoughnessCombine2 "0.000000"
+	// [inherited from layer] g_flRoughnessReplace2 "1.000000"
+	// [inherited from layer] g_flTexCoordRotation2 "0.000031"
+	g_flUnderlyingHeightMapInfluence2 "-0.684"
+	// [inherited from layer] g_flWetnessDarkeningStrength2 "1.000000"
+	// [inherited from layer] g_fTextureColorBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureColorContrast2 "1.000000"
+	// [inherited from layer] g_fTextureColorSaturation2 "1.000000"
+	// [inherited from layer] g_fTextureNormalContrast2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessBrightness2 "1.000000"
+	// [inherited from layer] g_fTextureRoughnessContrast2 "1.000000"
+	// [inherited from layer] g_fTintMaskBrightness2 "1.000000"
+	// [inherited from layer] g_fTintMaskContrast2 "1.000000"
+	// [inherited from layer] g_nColorCorrectionMode2 "0.000000"
+	// [inherited from layer] g_nUVSet2 "1.000000"
+	// [inherited from layer] g_nVertexColorMode2 "0.000000"
+	// [inherited from layer] g_vAmbientOcclusionLevels2 "[0.000000 0.500000 1.000000]"
+	// [inherited from layer] g_vTexCoordCenter2 "[0.500000 0.500000]"
+	// [inherited from layer] g_vTexCoordOffset2 "[0.000000 0.000000]"
+	// [inherited from layer] g_vTexCoordScale2 "[1.000000 1.000000]"
+	// [inherited from layer] g_vTextureColorTint2 "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusion2 "materials/islands/blend_ground/ground_forest_xeukeip/xeukeip_2k_ao.jpg"
+	TextureColor2 "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_albedo.jpg"
+	TextureHeight2 "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_displacement.jpg"
+	TextureMetalness2 ""
+	TextureNormal2 "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_normal.jpg"
+	TextureRoughness2 "materials/islands/blend_ground/ground_mossy_xeupfiu/xeupfiu_2k_roughness.jpg"
+	TextureTintMask2 ""
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
 	g_nTextureAddressModeV "0" // Wrap
+
+	Attributes
+	{
+		unnamed_01 ""
+	}
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties2 "grass"
+		DetailPropType_2 "grass_detail"
+		PhysicsSurfaceProperties1 "grass"
+	}
+
+	UnusedVariables
+	{
+		"g_flOverlayBrightnessContrast" "1"
+		"g_flOverlayDarknessContrast" "1"
+		"g_flOverlayTexCoordRotation" "0"
+		"g_nColorOverlayUVSet" "2"
+		"g_vColorOverlayLayerStrengths" "[1.000 1.000 1.000]"
+		"g_vColorOverlayTintMaskStrengths" "[0.000 0.000 0.000]"
+		"g_vOverlayTexCoordCenter" "[0.500 0.500]"
+		"g_vOverlayTexCoordOffset" "[0.000 0.000]"
+		"g_vOverlayTexCoordScale" "[1.000 1.000]"
+		"TextureSharedColorOverlay" ""
+	}
+
+
+	VariableState
+	{
+		"Blend Effects"
+		{
+			"Border Layer 2" 0
+			"Bevel Layer 2" 0
+		}
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Layer 1"
+		{
+			"Color" 0
+			"Tint Mask" 1
+			"Color Correction" 1
+			"Lighting" 1
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 0
+			"Detail Props" 0
+			"Snow" 0
+		}
+		"Layer 2"
+		{
+			"Color" 0
+			"Tint Mask" 1
+			"Color Correction" 1
+			"Lighting" 1
+			"Height" 0
+			"Texture Coordinates" 0
+			"Texture Transform" 1
+			"Detail Props" 0
+			"Snow" 0
+			"Selective Blending" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+	}
 }

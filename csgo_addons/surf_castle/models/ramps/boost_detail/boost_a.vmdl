@@ -1,0 +1,181 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						mesh_references = 
+						[
+							{
+								mesh_name = "1"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
+						]
+						switch_threshold = 0.0
+					},
+					{
+						_class = "LODGroup"
+						mesh_references = 
+						[
+							{
+								mesh_name = "2"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
+						]
+						switch_threshold = 27.58
+					},
+					{
+						_class = "LODGroup"
+						mesh_references = 
+						[
+							{
+								mesh_name = "3"
+								copy_and_simplify = false
+								simplify_params = 
+								{
+									targetTrianglePercent = 0.5
+									targetError = 0.01
+									attributeAware = true
+									normalWeight = 1.25
+									uvWeight = 0.5
+									jointWeightWeight = 1.0
+									colorWeight = 0.0
+									lockBorder = false
+									removeSmallComponents = false
+									smallComponentSize = 0.025
+									removeCoplanarIslands = false
+									coplanarIslandSize = 0.15
+									coplanarIslandMaxDistance = 0.025
+									coplanarIslandMaxAngle = 2.0
+									weldVertices = true
+									weldPositionTolerance = 0.001
+									visualizeEdges = false
+									recomputeVertices = false
+									regularization = "default"
+									permissive = false
+									prune = false
+								}
+							},
+						]
+						switch_threshold = 50.0
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "arrow_boost.vmat"
+								to = "materials/ramps_castle/boost_ramp_env_blend.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "1"
+						filename = "models/ramps/boost_detail/boost_1_LP_LOD1.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "2"
+						filename = "models/ramps/boost_detail/boost_1_LP_LOD2.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "3"
+						filename = "models/ramps/boost_detail/boost_1_LP_LOD3.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

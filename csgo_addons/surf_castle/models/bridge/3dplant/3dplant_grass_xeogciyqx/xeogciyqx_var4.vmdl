@@ -1,0 +1,75 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc28:version{fb63b6ca-f435-4aa0-a2c7-c66ddc651dca} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "LODGroupList"
+				children = 
+				[
+					{
+						_class = "LODGroup"
+						switch_threshold = 0
+						meshes = 
+						[
+							"unnamed_1",
+						]
+					},
+					{
+						_class = "LODGroup"
+						switch_threshold = 20
+						meshes = 
+						[
+							"unnamed_2",
+						]
+					},
+					
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = [  ]
+						use_global_default = true
+						global_default_material = "models/bridge/3dplant/3dplant_grass_xeogciyqx/materials/xeogciyqx.vmat"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+                        _class = "RenderMeshFile"
+                        filename = "models/bridge/3dplant/3dplant_grass_xeogciyqx/geometry/var4/var4_lod4.fbx"
+                        import_scale = 1
+                        import_filter = 
+                        {
+                            exclude_by_default = false
+                            exception_list = [  ]
+                        }
+                    },
+					{
+                        _class = "RenderMeshFile"
+                        filename = "models/bridge/3dplant/3dplant_grass_xeogciyqx/geometry/var4/var4_lod5.fbx"
+                        import_scale = 1
+                        import_filter = 
+                        {
+                            exclude_by_default = false
+                            exception_list = [  ]
+                        }
+                    },
+					
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
